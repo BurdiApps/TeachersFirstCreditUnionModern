@@ -2,6 +2,13 @@
 
 A responsive learning project that modernizes the fictional Teachers First legacy site with React, ASP.NET Core, EF Core, and SQL Server. All balances, rates, members, and transactions are fictional.
 
+## Screenshots
+<img width="1430" height="709" alt="Screen Shot 2026-11-01 at 10 19 13 AM" src="https://github.com/user-attachments/assets/5538f100-7f7c-4728-8348-f7b8c4685c04" />
+<img width="492" height="620" alt="Screen Shot 2026-11-01 at 10 19 33 AM" src="https://github.com/user-attachments/assets/ed8db8d5-0461-41b0-a559-b7ed78b1e9ee" />
+<img width="292" height="588" alt="Screen Shot 2026-11-01 at 10 20 36 AM" src="https://github.com/user-attachments/assets/fecf5d94-5be4-4246-b76c-3ecd140accc8" />
+<img width="796" height="678" alt="Screen Shot 2026-11-01 at 10 21 23 AM" src="https://github.com/user-attachments/assets/c0a54a5f-e9c3-4147-b00c-4136346cf871" />
+
+
 ## Stack and request flow
 
 - **React + TypeScript + Tailwind CSS** render the public site, sign-in form, and member dashboard.
