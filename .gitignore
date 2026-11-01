@@ -1,0 +1,13 @@
+# Generated dependencies and build output should be recreated locally or in CI.
+node_modules/
+dist/
+.DS_Store
+# Keep real local settings private, but allow the safe example template.
+.env
+.env.*
+!.env.example
+bin/
+obj/
+coverage/
+.vs/
+.idea/

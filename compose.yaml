@@ -1,0 +1,18 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    # SQL Server's Linux image is x64; Docker Desktop can emulate it on Apple Silicon.
+    platform: linux/amd64
+    env_file:
+      - .env
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Developer
+    ports:
+      - "1433:1433"
+    volumes:
+      - teachersfirst-sql-data:/var/opt/mssql
+
+volumes:
+  # A named volume keeps the database when the container is stopped or updated.
+  teachersfirst-sql-data:
